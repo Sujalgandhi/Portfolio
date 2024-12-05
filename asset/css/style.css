@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------------- navbar ----------------- */
+.navbar{
+    background-color: rgba(gray);
+}
+.navbar .nav-btn {
+    background-color: #fff;
+}
+.navbar .nav-btn {
+    border: 1px solid rgba(0, 188, 212, 0.3);
+}
+.btn.btn-sm {
+    padding: 8px 16px;
+    font-size: 13px;
+}
+.sticky {
+    padding: 12px 0px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(191, 197, 213, 0.07);
+}
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    padding-right: 26px;
+}
+/* ------------------- main banner ------------------- */
+.hero-one {
+    position: relative;
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 60px 0;
+  }
+  
+  .hero-one h1 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+  }
+  
+  .hero-one .typewrite {
+    font-weight: bold;
+    color: #007bff; /* Primary blue */
+  }
+  
+  .hero-one .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .hero-one .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .hero-one .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+.hero-one.main-bg {
+    background-color: rgba(247, 140, 75, 0.1);
+}
+.shape {
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    left: 0;
+}
+.text-white {
+    color: #fff !important;
+}
+.shape {
+    pointer-events: none;
+}
+/* ------------------- about -------------------- */
+.personal-detail-title {
+    width: 228px;
+    float: left;
+    font-weight: 500;
+    padding-right: 10px;
+    position: relative;
+    display: block;
+    font-size: 16px;
+}
+.personal-detail-title:after {
+    content: ":";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.personal-detail-info {
+    padding-left: 250px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7081b9;
+}
+.social i {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #8997bd;
+    color: #8997bd;
+    border-radius: 50%;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+}
+mark {
+    color: inherit;
+    padding: 0;
+    background: 0 0;
+    background-image: linear-gradient(120deg, rgba(255, 200, 53, 0.8) 0, rgba(255, 200, 53, 0.8) 100%);
+    background-repeat: no-repeat;
+    background-size: 0 0.3em;
+    background-position: 0 80%;
+    position: relative;
+    background-size: 100% 0.25em;
+    animation-delay: 1s;
+}
+.pettern{
+    background-image: url(../images/design.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* -------------------- Js ---------------- */
+
+#changingText {
+  color: #0000;
+  border-right: 1px solid black;
+  animation: cursoranim 1s linear infinite;
+}
+
+@keyframes cursoranim {
+  50% {
+    border-right: 1px solid rgba(0, 0, 0, 0);
+  }
+}
+
+
+  
+  /* Float three columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 1.5%;
+  }
+  
+  .row {
+    margin: 0 -5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 30%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #faf9f9b9;
+    color: rgb(51, 50, 50);
+  }
+  
+
+/* ------------------- Js ---------------------- */
+
+.accordion .accordion-item .accordion-header .accordion-button::before {
+    content: "─";
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+    color: rgb(0, 188, 212);
+}
+.accordion .accordion-item .accordion-header .accordion-button.collapsed::before {
+    content: "✛";
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+.section {
+    padding: 100px 0px 100px;
+    position: relative;
+}
+.search input {
+    padding: 15px 136px 15px 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #f1f6fa;
+    outline: none !important;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #303e67;
+}
+.search button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    outline: none !important;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 13px 30px;
+}
+.img-size {
+    height: 36px !important;
+    width: 36px !important;
+    font-size: 12px;
+    font-weight: 700;
+}
+.footer {
+    color: rgba(255, 255, 255, 0.4);
+    padding: 80px 0px 30px;
+    background-color: #172d51;
+}
+.footer-alt {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 20px 0px;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #172d51;
+}
+.footer .footer-list li a {
+    color: rgba(255, 255, 255, 0.4);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#review .card {
+    border: none;
+    background: #ffffff;
+  }
+  
+  #review h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  #review .carousel-item p {
+    color: #555555;
+    line-height: 1.6;
+  }
+  
+  #review .carousel-inner {
+    padding: 20px;
+  }
+  
+  #review .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    background-color: #cccccc;
+    border-radius: 50%;
+  }
+  
+  #review .carousel-indicators .active {
+    background-color: #666666;
+  }
+  
+  #review .carousel-control-prev-icon,
+  #review .carousel-control-next-icon {
+    filter: invert(1);
+  }
+  
+  #about .badge {
+    background-color: #007bff; /* Primary blue */
+    color: #ffffff;
+  }
+  
+  #about ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  #about ul li {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  #about ul li i {
+    font-size: 18px;
+  }
+  
+  #about img {
+    border: 4px solid #007bff; /* Profile image border */
+    max-width: 100%;
+    height: auto;
+  }
+  

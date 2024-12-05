@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="asset/bootstrap/bootstrap.min.css" />
+  <!-- remix icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- js -->
+  <link rel="stylesheet" href="asset/js/main.js">
+  <!-- css -->
+  <link rel="stylesheet" href="asset/css/style.css">
+
+</head>
+
+<body data-bs-spy="scroll"  data-bs-target=".navbar" data-bs-offset="80">
+
+  <!-- ----------------------------------------------start navbar---------------------------------------- -->
+
+  <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="asset/images/logo.png" class="logo-sm" alt="" height="24" />
+        <img src="asset/images/logo-dark.png" class="logo-dark" alt="" height="16" />
+      </a>
+
+      <a href="javascript:void(0)" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"><i class="ri-menu-line"></i></span>
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto navbar-center mt-lg-0 mt-2 fs-16">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="blogs.html">Blogs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <a href="#" class="btn btn-sm nav-btn text-primary mb-4 mb-lg-0">Hire Me! </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ---------------------------------------------end navbar----------------------------------- -->
+
+  <!-- --------------------------------------------start main banner---------------------------------- -->
+
+  <section class="hero-one bg-white position-relative main-bg" id="home"
+    style="background-image: url(asset/images/main-bg.png); background-size: cover; background-position: center center;">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+
+        <div class="col-lg-4  mx-auto mt-5">
+          <img src="asset/images/myImg.png" alt="" class="img-fluid ml-lg-5">
+        </div>
+
+        <div class="col-lg-7 text-center text-lg-start">
+          <h5 class="text-muted font-secondary mb-3">Hi, I'm <strong>Sujal Gandhi</strong></h5>
+          <h1 class="hero-title text-dark fw-bold mb-4">
+            I'm a <mark><span id="changingText" class="typewrite text-primary" 
+              data-period="2000" data-type='["Full Stack Developer", "Frontend Designer", "Freelancer"]'></span></mark>
+          </h1>
+          <p class="text-muted fs-18 mb-4">
+            Passionate about creating dynamic and visually appealing web solutions that solve real-world problems.
+          </p>
+          <a href="#" class="btn btn-primary btn-lg me-2">Download CV</a>
+          <a href="#projects" class="btn btn-outline-primary btn-lg">View Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------------------------------------------end main banner----------------------------------------- -->
+
+  <!-- ------------------------------------start about---------------------------------------- --->
+
+  <section class="section bg-light" id="about">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-12 col-md-10 col-lg-7 text-center">
+          <span class="badge bg-primary text-uppercase fs-14 mb-3">About Me</span>
+          <h2 class="fs-2 fw-bold lh-1 text-dark">My Personal Details</h2>
+          <p class="text-muted fs-18">
+            I specialize in Frontend and Full Stack Development, creating dynamic and user-friendly websites and applications that leave a lasting impact.
+          </p>
+        </div>
+      </div>
+  
+      <!-- About Content -->
+      <div class="row align-items-center">
+        <!-- Personal Details -->
+        <div class="col-lg-6">
+          <h3 class="text-dark fw-bold mb-3">Personal Details</h3>
+          <p class="text-muted fs-18">
+            Hello, I'm <strong>Sujal Gandhi</strong>. I hold a degree in IT Engineering from Bhagawan Mahavir University and have extensive experience in Full Stack Development. I'm currently enhancing my skills at Red & White Multimedia Education. My passion lies in crafting scalable and visually appealing solutions.
+          </p>
+          <ul class="list-unstyled mt-4">
+            <li class="mb-2"><i class="ri-calendar-line text-primary me-2"></i> <strong>Date of Birth:</strong> 07 July 2004</li>
+            <li class="mb-2"><i class="ri-earth-line text-primary me-2"></i> <strong>Languages:</strong> Gujarati, English</li>
+            <li class="mb-2"><i class="ri-flag-line text-primary me-2"></i> <strong>Nationality:</strong> Indian</li>
+            <li class="mb-2"><i class="ri-compass-line text-primary me-2"></i> <strong>Interests:</strong> Spirituality, Business, Traveling</li>
+          </ul>
+        </div>
+  
+        <!-- Profile Picture & Social Links -->
+        <div class="col-lg-5 ms-auto text-center">
+          <img src="asset/images/myImg.png" alt="Sujal Gandhi" class="img-fluid rounded-circle mb-4" style="max-width: 200px;">
+          <h5 class="text-dark fw-bold mb-3">Follow Me</h5>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="text-dark fs-5"><i class="ri-github-line"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark fs-5"><i class="ri-twitter-line"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark fs-5"><i class="ri-google-line"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark fs-5"><i class="ri-linkedin-line"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ----------------------------------------------end about------------------------------------- -->
+
+  <!-- ------------------------------------------- experians count ------------------------------ -->
+
+  <section>
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-md-10 col-lg-7 text-center">
+          <span class="badge bg-dark f badge-lg rounded bg-soft-alt-success fw-normal fs-28 text-uppercase">My Work</span>
+          <h2 class="fs-2 fw-medium lh-1 text-dark my-3">My Work Experience</h2>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <h3><span id="Partners">0</span>+</h3>
+            <h3>Html Ranks</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><span id="Projects">0</span>+</h3>
+            <h3>Css Ranks</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><span id="Clients">0</span>+</h3>
+            <h3>Frontend Ranks</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><span id="Projects">2</span>+</h3>
+            <h3>Client</h3>
+          </div>
+        </div>
+      </div>
+    
+  
+  </div>
+  </section>
+  
+  <!-- ------------------------------------------- experians count ------------------------------ -->
+
+  <!-- -----------------------------------------start resume--------------------------------------- -->
+
+  <section class="section" id="resume">
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-md-10 col-lg-7 text-center">
+          <span class="badge bg-dark f badge-lg rounded bg-soft-alt-success fw-normal fs-28 text-uppercase">Life Time</span>
+          <h2 class="fs-2 fw-medium lh-1 text-dark my-3">Education & Experience</h2>
+          <p class="text-gray-700 fs-18 fs-lg mb-4 mb-md-5 lh-lg">
+            We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have
+            meaning .
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="row g-0">
+            <div class="col-lg-4 col-md-6">
+              <div class="card rounded bg-light h-100 border-0">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <div class="mx-auto text-center">
+                    <img src="asset/images/school.png" alt="" class="vector-dark" height="150">
+                    <h5 class="text-dark fs-22 fw-medium my-2">Education</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8 col-md-6">
+              <div class="card rounded bg-white  h-100 border-0">
+                <div class="card-body p-0">
+                  <div class="accordion accordion-flush" id="Education_accordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="prime">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#Education_one" aria-expanded="false">
+                          MSc IT Master Degree
+                          <span class="fw-medium text-primary ms-auto fs-14">2023 - 2025</span>
+                        </button>
+                      </h2>
+                      <div id="Education_one" class="accordion-collapse collapse show" aria-labelledby="prime"
+                        data-bs-parent="#Education_accordion">
+                        <div class="accordion-body">
+                          <p class="text-muted mb-3">I will Starting My MSc IT Mastre Degree in This Year And complete
+                            After 2 Years.
+                          </p>
+                          <p class="fw-medium">Dr. A.P.J. Abdul Kalam University
+                            University, Indore, Madhya Pradesh</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="second">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#Education_two" aria-expanded="false">
+                          IT college complete course
+                          <span class="fw-medium text-primary ms-auto fs-14">2020 - 2023</span>
+                        </button>
+                      </h2>
+                      <div id="Education_two" class="accordion-collapse collapse" aria-labelledby="second"
+                        data-bs-parent="#Education_accordion">
+                        <div class="accordion-body">
+                          <p class="text-muted mb-3">I Have Completed My 3 Years Of IT Engineering
+                             In Bhagawan Mahavir University in Surat.
+                          </p>
+                          <p class="fw-medium">Dr. A.P.J. Abdul Kalam University
+                            University, Indore, Madhya Pradesh</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="higher">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#Education_three" aria-expanded="false">
+                          High / Higher secondary school
+                          <span class="fw-medium text-primary ms-auto fs-14">2018 - 2020</span>
+                        </button>
+                      </h2>
+                      <div id="Education_three" class="accordion-collapse collapse" aria-labelledby="higher"
+                        data-bs-parent="#Education_accordion">
+                        <div class="accordion-body">
+                          <p class="text-muted mb-3">I Completed My Schooling In Gajera Vidhya Bhavan.
+                            I Am Studied From Junior To 10th In Gajera Vidhya Bhavan. 
+                          </p>
+                          <p class="fw-medium">Gajera Vidhya Bhavan, Surat, Gujarat, India</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="hr-dashed">
+          <div class="row g-0">
+            <div class="col-lg-4 col-md-6">
+              <div class="card rounded bg-light h-100 border-0">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <div class="mx-auto text-center">
+                    <img src="asset/images/job.png" alt="" class="vector-dark" height="150">
+                    <h5 class="text-dark fs-22 fw-medium my-2">Experience</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8 col-md-6">
+              <div class="card rounded bg-white  h-100 border-0">
+                <div class="card-body p-0">
+                  <div class="accordion accordion-flush" id="Experience_accordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="first-co">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#Experience_one" aria-expanded="false">
+                           - Web Design IT Company
+                          <span class="fw-medium text-primary ms-auto fs-14">2021 - 2023</span>
+                        </button>
+                      </h2>
+                      <div id="Experience_one" class="accordion-collapse collapse show" aria-labelledby="first-co"
+                        data-bs-parent="#Experience_accordion">
+                        <div class="accordion-body">
+                          <p class="text-muted mb-1">- I Have 3 Months Experience of Web Design Company. Not Any Higher 
+                            Experience of Jobs.
+                          </p>
+                          <p class="fw-medium">Webbye Jenious , Vesu, Surat</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="second-co">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#Experience_two" aria-expanded="false">
+                           - Creative full stack web design & development
+                          <span class="fw-medium text-primary ms-auto fs-14">2022 - 2023</span>
+                        </button>
+                      </h2>
+                      <div id="Experience_two" class="accordion-collapse collapse" aria-labelledby="second-co"
+                        data-bs-parent="#Experience_accordion">
+                        <div class="accordion-body">
+                          <p class="text-muted mb-1">- I Have 6 Months Full Stack Web Development Experience 
+                            In Red $ White Multimedia.  
+                          </p>
+                          <p class="fw-medium">R&W Multimedia Education, Adajan, Surat</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="third-co">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#Experience_three" aria-expanded="false">
+                           - Web & App IT Company
+                          <span class="fw-medium text-primary ms-auto fs-14">2022 - 2023</span>
+                        </button>
+                      </h2>
+                      <div id="Experience_three" class="accordion-collapse collapse" aria-labelledby="third-co"
+                        data-bs-parent="#Experience_accordion">
+                        <div class="accordion-body">
+                          <p class="text-muted mb-1">- I Am A Fresher. Not a High Level Experience.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------------------------------------end resume---------------------------------------- -->
+
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-md-10 col-lg-7 text-center">
+          <span class="badge bg-dark badge-lg rounded bg-soft-alt-success fw-normal fs-13 text-uppercase">Projects</span>
+          <h2 class="fs-2 fw-normal lh-1 text-dark my-3">Featured Projects</h2>
+          <p class="text-gray-700 fs-18 fs-lg mb-4 mb-md-5 lh-lg">
+            Below are some of the projects I've worked on. Click on a project to view more details or access the files.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow">
+            <img src="asset/images/Admin.png" alt="Project 1 Screenshot" class="img-fluid rounded-top">
+            <div class="card-body">
+              <h5 class="fs-20 my-0 d-block fw-medium">Project Title 1</h5>
+              <p class="text-muted fs-14 mt-2">A brief description of the project.</p>
+              <a href="https://github.com/Sujalgandhi/Admin-pannel.git" target="_blank" class="btn btn-sm btn-primary">
+                View Code
+              </a>
+              <a href="projects/project1.zip" class="btn btn-sm btn-secondary">
+                Download Files
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow">
+            <img src="asset/images/Architecture.png" alt="Project 2 Screenshot" class="img-fluid rounded-top">
+            <div class="card-body">
+              <h5 class="fs-20 my-0 d-block fw-medium">Project Title 2</h5>
+              <p class="text-muted fs-14 mt-2">A brief description of the project.</p>
+              <a href="https://sujalgandhi.github.io/Architecture/" target="_blank" class="btn btn-sm btn-primary">
+                View Code
+              </a>
+              <a href="projects/project2.zip" class="btn btn-sm btn-secondary">
+                Download Files
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow">
+            <img src="asset/images/Ecommerce.png" alt="Project 2 Screenshot" class="img-fluid rounded-top">
+            <div class="card-body">
+              <h5 class="fs-20 my-0 d-block fw-medium">Project Title 2</h5>
+              <p class="text-muted fs-14 mt-2">A brief description of the project.</p>
+              <a href="https://sujalgandhi.github.io/Ecommerce/" target="_blank" class="btn btn-sm btn-primary">
+                View Code
+              </a>
+              <a href="projects/project2.zip" class="btn btn-sm btn-secondary">
+                Download Files
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- ------------------------------------------------------------------------------------ -->
+
+  <div class="position-relative">
+    <div class="shape overflow-hidden text-light">
+      <svg viewBox="0 0 2880 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M110 105L2160 0H2880V150H0V105H110Z" fill="currentColor"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ----------------------------------------testimonial start-------------------------------- -->
+
+  <section class="section bg-light" id="review">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <div class="card rounded shadow p-4">
+            <h2 class="text-center mb-5">What Our Clients Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+              <!-- Indicators -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+  
+              <!-- Carousel Items -->
+              <div class="carousel-inner">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item text-center active">
+                  <img src="asset/images/user3.jpg" alt="John M. Sperry" class="rounded-circle d-block mx-auto mb-3" height="100">
+                  <h5 class="fw-medium">John M. Sperry</h5>
+                  <p class="text-muted fs-14 mb-4">CEO, Example Corp</p>
+                  <p class="font-secondary fs-18 fst-italic">
+                    "I feel confident imposing change on myself. It's a lot more fun progressing than looking back. 
+                    That's why I trust them for all my needs."
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                    <li class="list-inline-item"><i class="ri-star-s-line text-warning fs-16"></i></li>
+                  </ul>
+                </div>
+  
+                <!-- Testimonial 2 -->
+                <div class="carousel-item text-center">
+                  <img src="asset/images/user4.jpg" alt="Hardik Patel" class="rounded-circle d-block mx-auto mb-3" height="100">
+                  <h5 class="fw-medium">Hardik Patel</h5>
+                  <p class="text-muted fs-14 mb-4">Freelancer</p>
+                  <p class="font-secondary fs-18 fst-italic">
+                    "Working with this team was a pleasure. Their professionalism and dedication exceeded my expectations."
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                    <li class="list-inline-item"><i class="ri-star-s-fill text-warning fs-16"></i></li>
+                  </ul>
+                </div>
+              </div>
+  
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ----------------------------------------testimonial end-------------------------------- -->
+
+  <!-- ------------------------------------------personal--------------------------------------- -->
+
+  <section class="section bg-light pettern" id="cta">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="pattern-1 position-absolute">
+            <img src="asset/images/p-1.svg" alt="" class="" height="80">
+          </div>
+          <h2 class="text-dark" style="line-height: 1.5; position: relative;">I Am Available For Freelancer.</h2>
+          <p class="text-muted mb-0">Browse hundreds of job offers and find the bestsuitable position.</p>
+        </div>
+
+        <div class="col-lg-6 ml-auto">
+          <div class="search">
+            <form class="position-relative">
+              <input type="email" placeholder="Email Address" required="">
+              <button type="submit" class="btn btn-dark">Send Massage</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -----------------------------------------------personal------------------------------------------ -->
+
+  <!-- ---------------------------------------------our blogs------------------------------------------- -->
+
+  <section class="section " id="blogs">
+    <div class="container pb-5">
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-md-10 col-lg-7 text-center">
+          <span class="badge bg-dark badge-lg rounded bg-soft-alt-success fw-normal fs-13 text-uppercase">Blogs</span>
+          <h2 class="fs-2 fw-normal lh-1 text-dark my-3">Latest news & insights</h2>
+          <p class="text-gray-700 fs-18 fs-lg mb-4 mb-md-5 lh-lg">
+            We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have
+            meaning .
+          </p>
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow">
+            <img src="asset/images/blog1.jpg" alt="" class="img-fluid rounded-top">
+            <div class="card-body">
+
+              <a href="blog-detail.html" class="nav-link" class="fs-20 my-0 d-block fw-medium">Change the world with
+                small things</a>
+              <hr class="hr-dashed">
+              <div class="d-flex justify-content-between">
+                <div class="meta-box">
+                  <div class="media">
+                    <img src="asset/images/user1.jpg" alt="" class="img-size rounded-circle me-2 align-self-center">
+                    <div class="media-body align-self-center text-truncate">
+                      <h6 class="m-0 fs-14">Charles Woodall</h6>
+                      <p class="mb-0 fs-12 text-muted">14 Feb 2022</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="align-self-center">
+                  <a href="blog-detail.html" class="nav-link" class="fs-14">Read more <i
+                      class="ri-arrow-right-line"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow">
+            <img src="asset/images/blog2.jpg" alt="" class="img-fluid rounded-top">
+            <div class="card-body">
+              <a href="blog-detail.html" class="nav-link" class="fs-20 my-0 d-block fw-medium">With a clean, minimal and
+                professional look</a>
+              <hr class="hr-dashed">
+              <div class="d-flex justify-content-between">
+                <div class="meta-box">
+                  <div class="media">
+                    <img src="asset/images/user2.jpg" alt="" class="img-size rounded-circle me-2 align-self-center">
+                    <div class="media-body align-self-center text-truncate">
+                      <h6 class="m-0 fs-14">Jarvis Owen</h6>
+                      <p class="mb-0 fs-12 text-muted">12 Jan 2022</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="align-self-center">
+                  <a href="blog-detail.html" class="nav-link" class="fs-14">Read more <i
+                      class="ri-arrow-right-line"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow">
+            <img src="asset/images/blog3.jpg" alt="" class="img-fluid rounded-top">
+            <div class="card-body">
+              <a href="blog-detail.html" class="nav-link" class="fs-20 my-0 d-block fw-medium">With a clean, minimal and
+                professional look</a>
+              <hr class="hr-dashed">
+              <div class="d-flex justify-content-between">
+                <div class="meta-box">
+                  <div class="media">
+                    <img src="asset/images/user3.jpg" alt="" class="img-size rounded-circle me-2 align-self-center">
+                    <div class="media-body align-self-center text-truncate">
+                      <h6 class="m-0 fs-14">Jarvis Owen</h6>
+                      <p class="mb-0 fs-12 text-muted">12 Jan 2022</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="align-self-center">
+                  <a href="blog-detail.html" class="nav-link" class="fs-14">Read more <i
+                      class="ri-arrow-right-line"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -----------------------------------------------our blogs---------------------------------------------->
+
+
+  <!-- -------------------------------------------start contact us------------------------------------ -->
+
+  <section class="section bg-light" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card-f bg-white"
+            style="background: url(asset/images/design.png); background-repeat: no-repeat; background-size: 15%; background-position: right bottom;">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-8">
+                  <h2 class="fs-2 text-dark mb-3">Get in touch !</h2>
+                  <p class="text-gray-700 fs-18 fs-lg mb-4 mb-md-5 ">Always available for freelancing if the right
+                    project <br> comes along, Feel free to contact me.</p>
+                  <form method="post" name="myForm" onsubmit="return validateForm()">
+                    <span id="error-msg"></span>
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label class="fw-medium form-label fs-16" for="name">Name</label>
+                        <input type="text" class="form-control" placeholder="Your name" id="name" />
+                      </div>
+
+                      <div class="col-md-6 mb-3">
+                        <label class="fw-medium form-label  fs-16" for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="Your email" id="email" />
+                      </div>
+
+                      <div class="col-md-6 mb-3">
+                        <label class="fw-medium form-label  fs-16" for="subject">Subject</label>
+                        <input type="text" class="form-control" placeholder="your subject" id="subject" />
+                      </div>
+
+                      <div class="col-md-6 mb-3">
+                        <label class="fw-medium form-label  fs-16" for="number">Contact</label>
+                        <input type="text" class="form-control" placeholder="+00 1234 5678 90" id="number" />
+                      </div>
+
+                      <div class="col-12 mb-3">
+                        <label class="fw-medium form-label  fs-16" for="comments">Message</label>
+                        <textarea class="form-control" id="comments" placeholder="Enter your message..."
+                          rows="5"></textarea>
+                      </div>
+
+                      <div class="col-12">
+                        <input type="submit" id="submit" name="send" class="btn btn-primary mt-2"
+                          value="Send message" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="col-md-4">
+                  <img src="asset/images/contact.svg" alt="" height="200" class=" mx-auto d-block mb-5">
+                  <div class="d-flex">
+                    <div class="bg-light d-flex justify-content-center align-items-center thumb-lg  rounded">
+                      <i class="ri-phone-line"></i>
+                    </div>
+                    <div class="align-self-center ms-3">
+                      <span class="d-block lh-1">+93 13 570 072</span>
+                      <span class="text-muted fs-14 mt-n2">9:00am to 5:00pm</span>
+                    </div>
+                  </div>
+                  <hr class="hr-dashed my-3">
+                  <div class="d-flex">
+                    <div class="bg-light d-flex justify-content-center align-items-center thumb-lg  rounded">
+                      <i class="ri-mail-line"></i>
+                    </div>
+                    <div class="align-self-center ms-3">
+                      <span class="d-block lh-1">sujalgandhi0507@gmail.com</span>
+                      <span class="text-muted fs-14 mt-n2">Monday to Friday</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------------------------end contact us-------------------------------------- -->
+
+
+  <div class="position-relative">
+    <div class="shape overflow-hidden bg-footer">
+      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- -----------------------------------------start footer-------------------------------------- -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 border-e-dashed">
+          <a href="layout-one-1.html">
+            <img src="asset/images/logo.png" alt="" height="26" />
+            <img src="asset/images/logo-light.png" alt="" height="16" />
+          </a>
+          <p class="my-4 text-light">
+            Creating meaningful experiences through modern web design and development. Let's bring ideas to life.
+          </p>
+          <ul class="list-unstyled footer-social mb-0 mt-sm-0 mt-3">
+            <li class="list-inline-item">
+              <a href="#" class="text-light nav-link"><i class="ri-facebook-circle-line fs-4"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-light nav-link"><i class="ri-twitter-line fs-4"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-light nav-link"><i class="ri-github-line fs-4"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-light nav-link"><i class="ri-instagram-line fs-4"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6 offset-lg-1 text-light">
+          <div class="row">
+            <div class="col-md-4">
+              <h6 class="text-footer mb-4 mt-sm-0 mt-5">Company</h6>
+              <ul class="list-unstyled footer-list">
+                <li class="nav-item"><a href="#home" class="nav-link text-light">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link text-light">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link text-light">services</a></li>
+
+              </ul>
+            </div>
+
+            <div class="col-md-4">
+              <h6 class="text-footer mb-4 mt-sm-0 mt-4">Information</h6>
+              <ul class="list-unstyled footer-list">
+                <li class="nav-item"><a href="#resume" class="nav-link text-light">Resume</a></li>
+                <li class="nav-item"><a href="#review" class="nav-link text-light">Client Say</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link text-light">Projects</a></li>
+
+              </ul>
+            </div>
+
+            <div class="col-md-4">
+              <h6 class="text-footer mb-4 mt-sm-0 mt-4">More info</h6>
+              <ul class="list-unstyled footer-list">
+                <li class="nav-item"><a href="#blogs" class="nav-link text-light">Blogs</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link text-light">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light">Terms & condition</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ----------------------------------------------end footer------------------------------------------- -->
+
+  <!-- -------------------------------------------start footer alter------------------------------------ -->
+  <div class="footer-alt">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p> &copy;
+            <script>
+              document.write(new Date().getFullYear())
+            </script> Selfown. Created with <i class="ri-heart-line"></i> by Mannatthemes
+          </p>
+        </div>
+        <div class="col-sm-6 text-sm-end">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a href="#" class="nav-link">- Terms & condition<sup
+                  class="text-danger">*</sup></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- ----------------------------------------------end footer alter-------------------------------------------- -->
+
+  <script src="asset/bootstrap/bootstrap.bundle.min.js"></script>
+
+  <script src="asset/js/main.js"></script>
+</body>
+
+</html>
